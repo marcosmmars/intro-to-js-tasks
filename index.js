@@ -45,9 +45,11 @@ var chemistry = 80;
 var physics = 35.45;
 var bangla = 99.5;
 
+var totalSubject = 5;
+
 var totalMarks = mathematics + biology + chemistry + physics + bangla;
 
-var averageMarks = totalMarks / 5;
+var averageMarks = totalMarks / totalSubject;
 
 console.log(
   "Ans for the Task 2: The average marks wil be " +
